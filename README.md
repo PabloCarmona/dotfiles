@@ -124,6 +124,8 @@ ncurses
 
 nvm
 
+numi
+
 oniguruma
 
 openssl@1.1
