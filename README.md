@@ -53,6 +53,7 @@ SOFTWARE. -->
 - [OneDark Pro](https://binaryify.github.io/OneDark-Pro/#/)
 - [Dracula](https://draculatheme.com/)
 - [Synthwave84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode)
+- [Andromeda](https://github.com/EliverLara/Andromeda)
 
 ## Brew
 
