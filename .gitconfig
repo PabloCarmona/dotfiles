@@ -1,0 +1,18 @@
+[user]
+  name  = ${USER}
+  email = ${EMAIL}
+[alias]
+  lg    = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'
+  s     = status
+  a     = add .
+  c     = commit -a -m
+  pom   = push origin master
+  po    = push origin
+  plom  = pull origin master
+  plo   = pull origin
+  rb    = rebase -i
+  b     = branch --sort=-committerdate --verbose --format='%(HEAD) %(color:red)%(objectname:short)%(color:reset) - %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) - %(color:green)(%(committerdate:relative))%(color:reset) %(color:blue)<%(authorname)>%(color:reset)'
+[pull]
+  rebase = true
+[fetch]
+  prune = true
